@@ -1,0 +1,16 @@
+# 리스트 8.1  cookbook-deployment-connectionsposts.yaml에서 발췌
+
+- name: CONNECTIONPOSTSCONTROLLER_POSTSURL
+  value: "http://posts-svc/posts?userIds="
+- name: CONNECTIONPOSTSCONTROLLER_CONNECTIONSURL
+  value: "http://connections-svc/connections/"
+- name: CONNECTIONPOSTSCONTROLLER_USERSURL
+  value: "http://connections-svc/users/"
+- name: REDIS_HOSTNAME
+  value: "redis-svc"
+- name: REDIS_PORT
+  value: "6379"
+- name: SPRING_APPLICATION_NAME
+  value: "mycookbook"
+- name: SPRING_CLOUD_CONFIG_URI
+  value: "http://sccs-svc:8888"

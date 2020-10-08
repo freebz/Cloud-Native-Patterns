@@ -1,0 +1,14 @@
+# 리스트 8.2  redis-deployment.yaml에서 발췌
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: redis-svc
+spec:
+  selector:
+    app: redis
+  ports:
+  - protocol: "TCP"
+    port: 6379
+    targetPort: 6379
+  type: NodePort
