@@ -1,0 +1,8 @@
+# 리스트 7.6  cookbook-deployment-posts.yaml에서 발췌
+
+livenessProbe:
+  httpGet:
+    path: /healthz
+    port: 8080
+  initialDelaySeconds: 60
+  periodSeconds: 5
