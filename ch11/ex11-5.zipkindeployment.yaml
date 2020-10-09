@@ -1,0 +1,6 @@
+# 리스트 11.5  세 마이크로서비스의 각 배포 yaml 파일에 추가
+
+- name: SPRING_APPLICATION_JSON
+  value: '{"spring":{"zipkin":{"baseUrl":"http://zipkin-svc:9411/"}}}'
+- name: SPRING_SLEUTH_SAMPLER_PERCENTAGE
+  value: "0.01"

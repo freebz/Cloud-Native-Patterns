@@ -1,0 +1,12 @@
+<!-- 리스트 11.4  세 마이크로서비스의 각 pom.xml 파일에 추가 -->
+
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-sleuth</artifactId>
+    <version>2.0.3.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-sleuth-zipkin</artifactId>
+    <version>2.0.3.RELEASE</version>
+</dependency>

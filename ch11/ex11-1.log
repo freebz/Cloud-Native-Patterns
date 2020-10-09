@@ -1,0 +1,4 @@
+리스트 11.1  Connections' Posts에서의 로그 출력
+
+2019-02-25 02:20:11.969 [mycookbook-connectionsposts,2e30...,2e30...] getting posts for user network cdavisafc
+2019-02-25 02:20:11.977 [mycookbook-connectionsposts,2e30...,2e30...] connections = 2,3
