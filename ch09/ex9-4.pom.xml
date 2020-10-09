@@ -1,0 +1,11 @@
+<!-- 리스트 9.4  Connections' Posts 서비스의 pom.xml에서 발췌 -->
+
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-aop</artifactId>
+</dependency>
+<dependency>
+    <groudId>org.springframework.retry</groupId>
+    <artifactId>spring-retry</artifactId>
+    <version>1.2.2.RELEASE</version>
+</dependency>
